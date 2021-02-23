@@ -1,12 +1,13 @@
 <template>
   <div>
     <child>
-      <template v-slot:todo1="slotProps22">
+      <template v-slot:todo1="nice">
         <div>
-        {{slotProps22.test+'232323'}}
+        {{nice.test+'232323'}}
         </div>
+        <h4>{{nice.user1.lastName}}</h4>
       </template>
-      <template v-slot:mymy></template>
+      <template v-slot:mymy></template> 
     </child>
   </div>
 </template>

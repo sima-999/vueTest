@@ -1,12 +1,12 @@
 <template>
   <div>
-    <slot name="todo" :user="user" :test="test">
+    <!-- <slot name="todo" :user="user" :test="test">
       {{ user.lastName }}
-    </slot>
-    <slot name="todo1" :user="user" :test="test">
+    </slot>-->
+    <slot name="todo1" :user1="user" :test="test">
       henhao
-    </slot>
-    <slot name="mymy">KGB</slot>
+    </slot> 
+    <!-- <slot name="mymy">KGB</slot> -->
   </div>
 </template>
 
