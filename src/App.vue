@@ -96,9 +96,9 @@ s=5;
     created(){
       let s=obj;
       obj.prop= 123;
-      import('@/model/test').then(x=>{
-        // debugger;
-      })
+      // import('@/model/test').then(x=>{
+      //   // debugger;
+      // })
       // this.myTest=4;
     },
     methods: {
