@@ -1,0 +1,34 @@
+@myTestColor:red;
+.testA{
+    color:@myTestColor;
+}
+.myTest1(@useA:blue){
+color: @useA;
+}
+.testB{
+    // .myTest1(green);
+    .testA
+}
+#divA{
+    color: blueviolet;
+    div span {color: chartreuse;}
+
+    &>span{
+        color: black;
+        &:hover{
+            color: orangered;
+        }
+    }
+}
+.minxin(light,@Color){
+color: @Color;
+font-size: 15px;
+}
+.minxin(dark, @Color)
+{
+    color: @Color;
+    font-size: 20px;
+}
+.testB{
+    .minxin(dark,yellow)
+}
